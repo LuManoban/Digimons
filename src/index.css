@@ -1,7 +1,10 @@
 :root {
   color-scheme: dark;
   --primary-font-family: monospace;
+  --primary-theme-color: #23b5d8;
+  --max-width: 64rem;
   --element-size: 1rem;
+  --element-spacing: 2rem;
 }
 
 .body {

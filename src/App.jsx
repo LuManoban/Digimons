@@ -2,7 +2,14 @@ import './App.css';
 
 function App() {
   return (
-    <h1>Movies</h1>
+    <section className="section">
+      <div className="container">
+        <h1 className="title">Movies</h1>
+        <div className="g-layout g-layout-auto-fit-columns">
+
+        </div>
+      </div>
+    </section>
   )
 }
 
