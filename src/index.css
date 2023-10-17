@@ -1,15 +1,21 @@
 :root {
-  color-scheme: dark;
+  color-scheme: light;
   --primary-font-family: monospace;
   --primary-theme-color: #23b5d8;
   --max-width: 64rem;
   --element-size: 1rem;
   --element-spacing: 2rem;
   --border-radius: 1rem;
+  --background-start: #e0f7fa;  /* Color de inicio para el gradiente */
+  --background-end: #b2ebf2;    /* Color de fin para el gradiente */
 }
 
 .body {
   margin: 0;
   font-family: var(--primary-font-family);
   font-size: var(--element-size);
+  background-image: 
+    radial-gradient(circle at 1px 1px, #d0e0e3 2%, transparent 0),
+    linear-gradient(135deg, var(--background-start), var(--background-end)); /* Combinación de patrón y gradiente */
+  background-size: 20px 20px; /* Tamaño del patrón de puntos */
 }
